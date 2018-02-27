@@ -1,5 +1,4 @@
 
-
 <style>
   h2 {
     font-family: georgia;
@@ -7,46 +6,44 @@
   }
   .thin-pink-border {
     border-color: pink;
-    border-width: 3px;
+    border-width: 5px;
     border-style: solid;
-    border-radius: 50%;
+    border-radius: 10%;
   }
   button{
     background:pink;
-    font-family: georgia;
+    font-family: palatino;
     color: black
-  }
-  .background {
-    color: black;
   }
   body{
     background-color: ABE4E8; 
   }
   p1{
-    font-family: georgia;
+    font-family: palatino;
     font-size: 20px;
   }
   p{
-    font-family:georgia;
+    font-family: palatino;
     font-size: 15px
   }
 
 </style>
 
-<h2 class="text-primary text-center">Learn Simple Danish</h2>
+<h2 class="text-primary text-center">Learn About Denmark</h2>
   
-  <img src="https://cdn.pixabay.com/photo/2016/10/07/13/00/copenhagen-1721511_960_720.jpg" class="img-responsive" alt="Image of Copenhagen ">
+  <img src="https://cdn.pixabay.com/photo/2016/10/07/13/00/copenhagen-1721511_960_720.jpg" class="img-responsive thin-pink-border" alt="Image of Copenhagen ">
   
-  <p class= "text-center" style= font-size:20px > Welcome to Learning Simple Danish!</p>
+  <p class= "text-center" style= font-size:20px > Welcome to Learn About Denmark!</p>
   
 <p class= "text-center">What subject would you like to start with?</p>
   
-<dev> <button href= "second.html" class="btn-center">ART</button>
+<dev> <button class= "thin-pink-border" href= "second.html" class="btn-center">Art</button>
 
-<button href= "third.html">MANNERS</button>
+<button class= "thin-pink-border" href= "third.html">Geography</button>
 
-<button href= third>EATING</button>
+<button class= "thin-pink-border" href= fourth.html> Culture</button>
 
-<button>SPORTS</button>
- 
- <button>MEDICINE</button></dev>
+<button class= "thin-pink-border" >History</button>
+  
+<button class= "thin-pink-border" >Language</button>
+  
