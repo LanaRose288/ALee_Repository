@@ -1,0 +1,52 @@
+
+
+<style>
+  h2 {
+    font-family: georgia;
+    font-size: 40px
+  }
+  .thin-pink-border {
+    border-color: pink;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+  button{
+    background:pink;
+    font-family: georgia;
+    color: black
+  }
+  .background {
+    color: black;
+  }
+  body{
+    background-color: ABE4E8; 
+  }
+  p1{
+    font-family: georgia;
+    font-size: 20px;
+  }
+  p{
+    font-family:georgia;
+    font-size: 15px
+  }
+
+</style>
+
+<h2 class="text-primary text-center">Learn Simple Danish</h2>
+  
+  <img src="https://cdn.pixabay.com/photo/2016/10/07/13/00/copenhagen-1721511_960_720.jpg" class="img-responsive" alt="Image of Copenhagen ">
+  
+  <p class= "text-center" style= font-size:20px > Welcome to Learning Simple Danish!</p>
+  
+<p class= "text-center">What subject would you like to start with?</p>
+  
+<dev> <button href= "second.html" class="btn-center">ART</button>
+
+<button href= "third.html">MANNERS</button>
+
+<button href= third>EATING</button>
+
+<button>SPORTS</button>
+ 
+ <button>MEDICINE</button></dev>
