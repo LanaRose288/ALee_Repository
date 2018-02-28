@@ -1,4 +1,4 @@
-
+<a name= "top"> </a>
 <style>
   h2 {
     font-family: georgia;
@@ -31,15 +31,20 @@
 
 <h2 class="text-primary text-center">Learn About Denmark</h2>
   
-  <img src="https://cdn.pixabay.com/photo/2016/10/07/13/00/copenhagen-1721511_960_720.jpg" class="img-responsive thin-pink-border" alt="Image of Copenhagen ">
+  <img src= copenhagen-683594_1920.jpg class="img-responsive thin-pink-border" alt="Image of Copenhagen ">
   
   <p class= "text-center" style= font-size:20px > Welcome to Learn About Denmark!</p>
   
 <p class= "text-center">What subject would you like to start with?</p>
   
-<dev> <button class= "thin-pink-border" href= "second.html" class="btn-center">Art</button>
-
-<button class= "thin-pink-border" href= "third.html">Geography</button>
+<dev> <button class= "thin-pink-border" href= "second.html" class="btn-center"><a href= "#art"> Art </a> </button>
+  
+  
+  
+<button class= "thin-pink-border" href= "third.html">Geography
+  
+  
+  </button>
 
 <button class= "thin-pink-border" href= fourth.html> Culture</button>
 
@@ -47,3 +52,17 @@
   
 <button class= "thin-pink-border" >Language</button>
   
+</index.html>
+
+
+<a name="art"></a>
+
+
+<a name="top"></a>
+
+There doesn’t need to be anything between the opening and closing tags. Then, in the place you want to place the link, put
+
+<a href="#top">link to top</a>
+
+<p> ajkhfsdjlhfadslfadslkadsfjkhsfadjldfjhlfdhlasfdhlasfdlfadsldfjladfljadfsljfdashjlfadsjhk</p>
+
