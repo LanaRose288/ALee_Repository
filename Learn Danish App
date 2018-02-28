@@ -30,39 +30,42 @@
 </style>
 
 <h2 class="text-primary text-center">Learn About Denmark</h2>
+
+<img src="https://lh3.googleusercontent.com/Ha-MtsBTdhJPfAKm9JO2A1msCGFS6GWMiTeKZzmRJ58mdBILS7ScbCsyMBLHyKSXLeb1t5wvn2E-AL8hRIeGWq7pAZ9vPd7MJCpotHbsBi9rf7QZ70cOyniRoGNHkh4Lfk7tua4Hm0updRaAFG7H331L9zwgwpjBp9qftX0T5MyOmAyIOmuUn1xKpgXH7Jh0kLpf60siSF_iXNVq9LnYRUTFiIxs47isE3K6EJth_gZJHDGIaF88PR9Ui0Y9Q9n-J5VKa0EEjqcrW6KSJmU--NiIW28BJ8ZVvCtbkX7oz4cmxgfV5n1ipcotG_BRyYPeJyEvkeAMJGpMA3rB_jrNrlJag_U-sQS3c_vUi6Orq_kW8YV092bhLJPpm2_XaDIpsRAaEZngH7O9N9BHlh-kuhm3JsxfgVQHQOvldVYjVLSIkPV2UsWAL_y5yE13NGYAJnANLpdt2ibf1aB6Z1CGwbSiXmH7gEKESlpbnFYLVdNzYV6MLx4bxQcHnpYtRpfy6VsZcz4hBhwen_WeHH-tFq7ItuDnuW086PufIcTegKUPWDcYPsUMfKGfxyk3x7YtLV0dYwKzyjWq6c-r6pG13_phkexy0CKNiE0GKg=w337-h220-no" class="img-responsive thin-pink-border" > 
   
-  <img src= "copenhagen-683594_1920.jpg" class="img-responsive thin-pink-border" alt="Image of Copenhagen ">
-  
-  <p class= "text-center" style= font-size:20px > Welcome to Learn About Denmark!</p>
+  <p class= "text-center" style= font-size:20px > Welcome Aboard! </p>
   
 <p class= "text-center">What subject would you like to start with?</p>
   
-<dev> <button class= "thin-pink-border" href= "second.html" class="btn-center"><a href= "#art"> Art </a> </button>
+<div style= "text-align:center"> <button class= "thin-pink-border" href= "second.html" class="btn-center"><a href= "#art"> Art </a> </button>
   
+  <p> Learn about the Artistic accomplishments of the Danes!</p>
   
+  <button class= "thin-pink-border" style="text-align:center" href= "third.html"><a href= "#Geography">Geography</a></button>
+    
+    <p> Learn where Denmark is, and the politics around it!</p>
+  <button class= "thin-pink-border" href= fourth.html><a href= "#culture"> Culture</a></button></div>
   
-<button class= "thin-pink-border" href= "third.html">Geography
-  
-  
-  </button>
+  <p> Learn about Danish food and culture!</p>
 
-<button class= "thin-pink-border" href= fourth.html> Culture</button>
-
-<button class= "thin-pink-border" >History</button>
+<div style= "text-align: center"><button class= "thin-pink-border" ><a href= "#history">History</a></button>
   
-<button class= "thin-pink-border" >Language</button>
+  <p> Learn highlights of Danish history!</p>
   
-</index.html>
+  <button class= "thin-pink-border" ><a href= "#Language">Language</a></button></div>
+<p> something about Danish Language!</p>
 
 
 <a name="art"></a>
 
-
-<a name="top"></a>
-
-There doesn’t need to be anything between the opening and closing tags. Then, in the place you want to place the link, put
-
-<a href="#top">link to top</a>
-
-<p> ajkhfsdjlhfadslfadslkadsfjkhsfadjldfjhlfdhlasfdhlasfdlfadsldfjladfljadfsljfdashjlfadsjhk</p>
-
+<a name="geography"></a>
+  
+  <h2 class="text-center" style=font-size:20px >Denmark is a land between Germany and Sweden</h2>
+  
+<a name="culture"></a>
+  
+  <h2 class="text-center" style=font-size:20px> Denmark has a strong history of literary prowress</h2>
+  
+  <a name="history"></a>
+  
+  <a name="Language"></a>
