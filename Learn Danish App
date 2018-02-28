@@ -2,7 +2,23 @@
 <style>
   h2 {
     font-family: georgia;
-    font-size: 40px
+    font-size: 40px;
+    text: align-center
+  }
+  .thin-pink-border {
+    border-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10%;
+  }
+  button{
+    background:pink;
+    font-family: pala<body><a name="top"> </a>
+<style>
+  h2 {
+    font-family: georgia;
+    font-size: 40px;
+    text: align-center
   }
   .thin-pink-border {
     border-color: pink;
@@ -21,22 +37,85 @@
   p1{
     font-family: palatino;
     font-size: 20px;
+    text:align-center
   }
   p{
     font-family: palatino;
-    font-size: 15px
+    font-size: 15px;
+    text:align-center
+  }
+img{
+display:block;
+margin: auto;
+</style>
+
+<h2 class="text-primary" style="text-align:center">Learn About Denmark</h2>
+
+<img src="https://lh3.googleusercontent.com/Ha-MtsBTdhJPfAKm9JO2A1msCGFS6GWMiTeKZzmRJ58mdBILS7ScbCsyMBLHyKSXLeb1t5wvn2E-AL8hRIeGWq7pAZ9vPd7MJCpotHbsBi9rf7QZ70cOyniRoGNHkh4Lfk7tua4Hm0updRaAFG7H331L9zwgwpjBp9qftX0T5MyOmAyIOmuUn1xKpgXH7Jh0kLpf60siSF_iXNVq9LnYRUTFiIxs47isE3K6EJth_gZJHDGIaF88PR9Ui0Y9Q9n-J5VKa0EEjqcrW6KSJmU--NiIW28BJ8ZVvCtbkX7oz4cmxgfV5n1ipcotG_BRyYPeJyEvkeAMJGpMA3rB_jrNrlJag_U-sQS3c_vUi6Orq_kW8YV092bhLJPpm2_XaDIpsRAaEZngH7O9N9BHlh-kuhm3JsxfgVQHQOvldVYjVLSIkPV2UsWAL_y5yE13NGYAJnANLpdt2ibf1aB6Z1CGwbSiXmH7gEKESlpbnFYLVdNzYV6MLx4bxQcHnpYtRpfy6VsZcz4hBhwen_WeHH-tFq7ItuDnuW086PufIcTegKUPWDcYPsUMfKGfxyk3x7YtLV0dYwKzyjWq6c-r6pG13_phkexy0CKNiE0GKg=w337-h220-no" class="img-responsive thin-pink-border" width:=""> 
+  
+  <p style="text-align:center"> Welcome Aboard! </p>
+  
+<p style="text-align:center">What subject would you like to start with?</p>
+
+<div style="text-align:center"> <button class="thin-pink-border" href="second.html"><a href="#art"> Art </a> </button>
+  
+  <p> Learn about the Artistic accomplishments of the Danes!</p>
+  
+  <button class="thin-pink-border" style="text-align:center" href="third.html"><a href="#Geography">Geography</a></button>
+    
+    <p> Learn where Denmark is, and the politics around it!</p>
+  <button class="thin-pink-border" href="fourth.html"><a href="#culture"> Culture</a></button></div>
+  
+  <p> Learn about Danish food and culture!</p>
+
+<div style="text-align: center"><button class="thin-pink-border"><a href="#history">History</a></button>
+  
+  <p> Learn highlights of Danish history!</p>
+  
+  <button class="thin-pink-border"><a href="#Language">Language</a></button></div>
+<p> something about Danish Language!</p>
+
+
+<a name="art"></a>
+
+<a name="geography"></a>
+  
+  <h2 class="text-center" style="font-size:20px">Denmark is a land between Germany and Sweden</h2>
+  
+<a name="culture"></a>
+  
+  <h2 class="text-center" style="font-size:20px"> Denmark has a strong history of literary prowress</h2>
+  
+  <a name="history"></a>
+  
+  <a name="Language"></a>
+</body>tino;
+    color: black
+  }
+  body{
+    background-color: ABE4E8; 
+  }
+  p1{
+    font-family: palatino;
+    font-size: 20px;
+    text:align-center
+  }
+  p{
+    font-family: palatino;
+    font-size: 15px;
+    text:align-center
   }
 
 </style>
 
-<h2 class="text-primary text-center">Learn About Denmark</h2>
+<h2 class="text-primary">Learn About Denmark</h2>
 
 <img src="https://lh3.googleusercontent.com/Ha-MtsBTdhJPfAKm9JO2A1msCGFS6GWMiTeKZzmRJ58mdBILS7ScbCsyMBLHyKSXLeb1t5wvn2E-AL8hRIeGWq7pAZ9vPd7MJCpotHbsBi9rf7QZ70cOyniRoGNHkh4Lfk7tua4Hm0updRaAFG7H331L9zwgwpjBp9qftX0T5MyOmAyIOmuUn1xKpgXH7Jh0kLpf60siSF_iXNVq9LnYRUTFiIxs47isE3K6EJth_gZJHDGIaF88PR9Ui0Y9Q9n-J5VKa0EEjqcrW6KSJmU--NiIW28BJ8ZVvCtbkX7oz4cmxgfV5n1ipcotG_BRyYPeJyEvkeAMJGpMA3rB_jrNrlJag_U-sQS3c_vUi6Orq_kW8YV092bhLJPpm2_XaDIpsRAaEZngH7O9N9BHlh-kuhm3JsxfgVQHQOvldVYjVLSIkPV2UsWAL_y5yE13NGYAJnANLpdt2ibf1aB6Z1CGwbSiXmH7gEKESlpbnFYLVdNzYV6MLx4bxQcHnpYtRpfy6VsZcz4hBhwen_WeHH-tFq7ItuDnuW086PufIcTegKUPWDcYPsUMfKGfxyk3x7YtLV0dYwKzyjWq6c-r6pG13_phkexy0CKNiE0GKg=w337-h220-no" class="img-responsive thin-pink-border" > 
   
-  <p style= "font-size:20px text-align:center" > Welcome Aboard! </p>
+  <p style= "font-size:20px" > Welcome Aboard! </p>
   
 <p class= "text-center">What subject would you like to start with?</p>
-  
+
 <div style= "text-align:center"> <button class= "thin-pink-border" href= "second.html" class="btn-center"><a href= "#art"> Art </a> </button>
   
   <p> Learn about the Artistic accomplishments of the Danes!</p>
