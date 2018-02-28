@@ -51,7 +51,7 @@ margin: auto;
 
 <h2 class="text-primary" style="text-align:center">Learn About Denmark</h2>
 
-<img src="https://lh3.googleusercontent.com/Ha-MtsBTdhJPfAKm9JO2A1msCGFS6GWMiTeKZzmRJ58mdBILS7ScbCsyMBLHyKSXLeb1t5wvn2E-AL8hRIeGWq7pAZ9vPd7MJCpotHbsBi9rf7QZ70cOyniRoGNHkh4Lfk7tua4Hm0updRaAFG7H331L9zwgwpjBp9qftX0T5MyOmAyIOmuUn1xKpgXH7Jh0kLpf60siSF_iXNVq9LnYRUTFiIxs47isE3K6EJth_gZJHDGIaF88PR9Ui0Y9Q9n-J5VKa0EEjqcrW6KSJmU--NiIW28BJ8ZVvCtbkX7oz4cmxgfV5n1ipcotG_BRyYPeJyEvkeAMJGpMA3rB_jrNrlJag_U-sQS3c_vUi6Orq_kW8YV092bhLJPpm2_XaDIpsRAaEZngH7O9N9BHlh-kuhm3JsxfgVQHQOvldVYjVLSIkPV2UsWAL_y5yE13NGYAJnANLpdt2ibf1aB6Z1CGwbSiXmH7gEKESlpbnFYLVdNzYV6MLx4bxQcHnpYtRpfy6VsZcz4hBhwen_WeHH-tFq7ItuDnuW086PufIcTegKUPWDcYPsUMfKGfxyk3x7YtLV0dYwKzyjWq6c-r6pG13_phkexy0CKNiE0GKg=w337-h220-no" class="img-responsive thin-pink-border" width:=""> 
+<img src=https://photos.google.com/u/1/photo/AF1QipO-u_l_KuKrBAGafMck-6tEuOZTgwvO0Ipz7Xw4" class="img-responsive thin-pink-border" width:=""> 
   
   <p style="text-align:center"> Welcome Aboard! </p>
   
@@ -138,6 +138,8 @@ margin: auto;
 <a name="art"></a>
 
 <a name="geography"></a>
+
+
   
   <h2 class="text-center" style=font-size:20px >Denmark is a land between Germany and Sweden</h2>
   
