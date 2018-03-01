@@ -78,10 +78,6 @@ width:150px
 
 <div style="text-align: center"><button class="thin-pink-border test"><a href="#history">History</a></button>
   
-  
-  
-  <button class="thin-pink-border test"><a href="#Language">Language</a></button></div>
-
 
 <a name="art"></a>  
   
@@ -95,6 +91,12 @@ width:150px
 <p style="text-align:center"> something about Denmark something about Denmark something about Hans Christian Anderson and fairy tales</p>
   
   <a name="history"></a>
+  
+  
+  <p style="text-align:center"> Something about history; something about history; something about history. The vikings are usually what people think of when the think of Danish history; what they don't often think about is the (blank)</p>
+<p style= "text-align: center">Nazi occupation fo Denmark; something something something about how that impacted Denmark something something </p>
+<p style="text-align: center"> Modern day Denmark and something about how that that that that </p>  
+  <button class="thin-pink-border test"><a href="#Language">Language</a></button></div>
   
   <a name="Language"></a>
 
