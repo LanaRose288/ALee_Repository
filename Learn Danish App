@@ -42,7 +42,7 @@ font-size:25px;
   }
   p{
     font-family: palatino;
-    font-size: 15px;
+    font-size: 20px;
     text:align-center
   }
 img{
@@ -89,6 +89,8 @@ width:150px
 <a name="culture"></a>
   
   <h2 style="text-align:center"> Denmark has a strong history of literary prowress</h2>
+    
+    <p style="text-align: center"> One of Denmark's most interesting contributors to literature was Hans Christian Anderson, who went through the effort of compiling multiple fairy tales and creating a book from them. Some of these fairy tales, such as "The Little Mermaid", "The Snow Queen", and "Thumbelina", are still well known today.</p>
 
 <p style="text-align:center"> something about Denmark something about Denmark something about Hans Christian Anderson and fairy tales</p>
   
@@ -121,4 +123,5 @@ width:150px
   <a name="history"></a>
   
   <a name="Language"></a>
+
 </body>
