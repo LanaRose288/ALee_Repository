@@ -1,0 +1,57 @@
+.header{
+  background-color: #fff46a;
+  text-align: center;
+  padding-top: 80px;
+}
+.topnav{
+  background-color: #ffbc77;
+  text-align: center;
+  padding: 20px;
+  display: block
+}
+.footer{
+  background-color: #bbdff1;
+  padding: 20px;
+}
+h1 {
+    font-family: georgia;
+    font-size: 100px;
+    text: align-center
+  }
+  button{
+    background: white;
+    font-family: georgia;
+    font-size:60px;
+    margin-left: 20px;
+    margin-right: 20px;
+   
+}
+  h2{
+    font-family: georgia;
+    font-size: 50px;
+  }
+p{
+  font-size: 30px;
+  font-family: georgia;
+}
+  .thin-pink-border {
+    border-color: #000;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10%;
+  }
+  button{
+    background: white;
+    font-family: georgia;
+    color: black;
+  }
+  body{
+    background-color: #f9fdf9;
+    margin:50px
+  }
+img{
+  float:left;
+  clear: left;
+  margin: 50px;
+    }
+
