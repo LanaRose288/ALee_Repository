@@ -1,0 +1,119 @@
+
+<style>
+body{
+  background-color:#aaf6d5;
+}
+.header {
+    background-color: #ddd;
+    text-align: center;
+  padding: 10px;
+}
+.footer{
+  padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+}
+.topnav {
+    background-color: #000;
+    float: center;
+  margin-left: 200px;
+  margin-right:150px;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}
+  button{
+    background: black;
+    font-family: georgia;
+    color: black;
+    color:white;
+    padding: 20px 20px;
+    margin-left:100px;
+    margin-right: 200px;
+    margin-top: 20px;
+    margin-botton:40px;
+}
+h1{
+  text-align: center;
+  font-size: 70px;
+  font-family: georgia;
+}
+h2{
+  font-family: georgia;
+  font-color:#000000;
+  font-size: 40px;
+  text-align: center;
+  font-style: italic
+}
+h3{
+  text-align:center;
+}
+.column {
+  float: center;
+  margin-left: auto;
+  margin-right:auto;
+}
+p{
+  font-size: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+  font-family: georgia;
+}
+.thin-border{
+  border-radius: 50%;
+  border-margin: 20px;
+}
+.long-border{
+  border-style: solid;
+  border-color: #36ca43;
+  border-width: 10px;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+a{
+  font-size: 20px;
+}
+
+</style>
+<div class=header>
+<h1>Alanna Marie Lee</h1>
+<h2>Front-end  web developer</h2>
+</div>
+
+<a href= "#aboutMe" class="column"><button> About Me</button></a>
+
+<a href= "#myWork" ><button> My Work</button></a>
+
+<a href= "#contactMe" class="column"><button> Contact Me</button></a>
+
+
+<img style=margin-top:50px class=thin-border width=200px height=200px src= "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/28870597_169353560379173_5038156136113504256_n.jpg?_nc_cat=0&oh=4474b58f601676f5a1030f2a9d2a69c0&oe=5B75F279"> </img>
+
+<a name= "aboutMe"></a>
+<p>I'm a front end web developer with a practical knowledge of Javascript, CSS, and HTML, and I'm a graduate of North Idaho College with an Associates degree in Communication. I'm experienced with Adobe Illustrator and Photoshop, and have a working understanding of Adobe Audition.</p>
+
+<a name="myWork"></a> 
+<h3> A sample of the coding projects that I've worked on: </h3>
+<img src= "https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/29541733_172805556700640_4777496348971389227_n.jpg?_nc_cat=0&oh=2b66df54aa42883efebf87fa8ffa8a85&oe=5B3E50D8"></img>
+
+<h3> A sample of my work from my classes in Adobe Photoshop and Illustrator at Washington State University:</h3>
+
+<img height = 500px width = 500px src='https://alannaleerose.files.wordpress.com/2017/10/danish-logo1.gif?w=1400&h=9999' class= "column"></img>
+
+<img class ="column" width= 320px height=450px src= "https://alannaleerose.files.wordpress.com/2017/09/learning-danish-final-draft.jpg?w=1400&h=9999"></img>
+
+
+
+<a name="contactMe"></a> 
+<h3>Want to contact me? Email me at alanna.lee.rose@gmail.com</h3>
+
+<h2 class= "footer">
+  <a href="https://github.com/LanaRose288"> <img width= 75px hieght= 75px src= "https://avatars1.githubusercontent.com/u/36873263?s=460&v=4"> My Github</img> </a>
+ 
+<a href= "https://www.facebook.com/alanna.lee.90260?ref=bookmarks"><img height= 75px width=75px src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/28870597_169353560379173_5038156136113504256_n.jpg?_nc_cat=0&oh=4474b58f601676f5a1030f2a9d2a69c0&oe=5B75F279"></img> My Facebook</a>
+</h2>
