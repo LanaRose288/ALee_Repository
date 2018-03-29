@@ -1,2 +1,2 @@
 # hello-world
-this is a short description
+This is a repository for my current projects
