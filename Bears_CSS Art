@@ -1,0 +1,40 @@
+<style>
+body{
+  background: #FF9933;
+}
+.bear{
+  margin:220px;
+  background: brown;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow:
+    0px 20px 0px 40px,
+    60px -40px 0px 2px black,
+    -48px -40px 0px 2px black,
+    0px 0px 0px 100px #990000,
+     -75px -80px 0px 20px #993333,
+    70px -90px 0px 20px #993333,
+    70px -90px 0px 40px #990000,
+    -76px -80px 0px 40px #990000
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+</style>
+
+<div class="column" style="background-color:#000000">
+    <div class="bear"></div>   
+  </div>
+<div class="column" style="background-color:  #991A00" align="center">
+  <div class="bear"></div>
+</div>
+    
+<div class="column" style="background-color: #993300" align="center">
+  <div class="bear"></div>
+</div> 
+    
+    </div>
+  </div>
+</div>
