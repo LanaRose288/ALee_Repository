@@ -1,0 +1,106 @@
+<style>
+body{
+  background: linear-gradient(to right,  #CCFFFF, #990099)
+}
+.sun{
+  border-radius: 50%;
+  background-color:  #FFFF5C;
+  height: 200px;
+  width: 200px;
+}
+.moon{
+  border-radius: 50%;
+  background-color:transparent;
+  height: 200px;
+  width: 200px;
+  box-shadow:
+    20px -5px 0px 10px #E3ABB0;
+}
+.cloud{
+  border-radius: 50%;
+  background-color: #FFE6FF;
+  height: 100px;
+  width: 100px;
+  box-shadow:
+    20px 20px 0px -1px #FFE6FF,
+    70px 10px 0px -2px #FFE6FF,
+    50px -10px 0px -2px #FFE6FF
+}
+.cloud2{
+  border-radius: 50%;
+  background-color: #FF66FF;
+  height: 100px;
+  width: 100px;
+  box-shadow:
+    20px 20px 0px -1px #FF66FF,
+    70px 10px 0px -2px #FF66FF,
+    50px -10px 0px -2px #FF66FF
+}
+.column{
+    float: left;
+    width: 50%;
+}
+.right {
+    position: absolute;
+    right: 100px;
+}
+.skyscrapers{
+  height: 30px;
+  width: 30px;
+  background-color: transparent;
+  margin-top: 200px;
+  box-shadow:
+    60px 0px 0px 0px #CC6699,
+    120px 0px 0px 0px #CC6699,
+    180px -50px 0px 0px #CC6699,
+    250px -50px 0px 0px #CC6699,
+    320px -50px 0px 0px #CC6699,
+    180px 0px 0px 0px #CC6699,
+    250px 0px 0px 0px #CC6699,
+    320px 0px 0px 0px #CC6699,
+    60px 40px 0px 90px ,
+    450px -50px 0px 0px #CC6699,
+    500px -50px 0px 0px #CC6699,
+    550px -50px 0px 0px #CC6699,
+    450px -0px 0px 0px #CC6699,
+    500px 0px 0px 0px #CC6699,
+    550px 0px 0px 0px #CC6699,
+    -130px 0px 0px 0px #CC6699,
+    -200px -0px 0px 0px #CC6699,
+    -270px -0px 0px 0px #CC6699,
+    -270px -50px 0px 0px #CC6699,
+    -200px -50px 0px 0px #CC6699,
+    -130px -50px 0px 0px #CC6699,
+    -445px -30px 0px 0px #CC6699,
+    -500px -30px 0px 0px #CC6699,
+    -555px -30px 0px 0px #CC6699,
+    -200px 10px 0px 100px black,
+    250px 10px 0px 100px black,
+    500px 10px 0px 90px black,
+    -500px 10px 0px 80px black
+}
+</style>
+<html>
+<div class="cloud" style="margin-left:500px"></div>
+<div class="sun">
+  <div class="cloud" style="margin-left:100px"></div>
+  <div class="cloud" style="margin-left:300px"></div>
+  </div>
+  <div style="margin-left:150px" class="cloud"></div>
+</div>
+
+ <div class="cloud2 right"></div>
+  <div class="cloud2 right" style="margin:30px"></div>
+  <div class="cloud2 right" style="margin:100px"></div>
+</div>
+
+<div class="moon right">
+   <div class="cloud2">
+  <div class="skyscrapers">
+    <div class="cloud2" style="margin-right:500px">
+  </div>
+   </div>
+  </div>
+</div>
+</div>
+<html>
