@@ -1,0 +1,245 @@
+<script>
+function Income() {
+    var x = document.getElementById("myText").value;
+    document.getElementById("demo").innerHTML = x;
+}
+function Saving() {
+    var x = document.getElementById("savin").value;
+    document.getElementById("save").innerHTML = x;
+}
+function Nece() {
+    var x = document.getElementById("Necessary").value;
+    document.getElementById("Neces").innerHTML = x;
+}
+function Spending() {
+    var x = document.getElementById("spending").value;
+    document.getElementById("spend").innerHTML = x;
+}
+function addNums(){
+  var totalSavings=0;
+  for (var i=0; i<addNums.arguments.length; i++) {
+    var theNum= Number (addNums.arguments[i]);
+    totalSavings+=theNum;
+  }
+  return totalSavings;
+  document.getElementById("addition").innerHTML=totalSavings;
+  }
+function calcSav(){
+  let num1= document.getElementsByName("oldSavings")[0].value;
+  let num2= document.getElementsByName("newSavings")[0].value;
+  var sum= +num1+ +num2;
+document.getElementsByName("sum")[0].value= sum;
+}
+
+</script>
+
+<style>
+body{
+  margin:20px;
+  background-color: #FFFFC2;
+}
+.header{
+  background-color: #FF6600;
+  padding-top: 20px;
+  text-align: center;
+}
+.topnav{
+  background-color: #E02900;
+  display: block;
+  padding: 20px;
+}
+.footer{
+  background-color: #E02900;
+  padding:5px;
+}
+input{
+  height: 75px;
+  width: 250px;
+  font-size:50px;
+  border-color: #CC1F00;
+  border-style: solid;
+  border-width:10px;
+  border-radius:10%
+}
+button{
+  background-color:#CC6100;
+  border-radius:20%;
+  border-color: #CC1F00;
+  border-width: 10px;
+  border-style:solid;
+  font-style:georgia;
+  height: 100px;
+  width: 200px;
+  font-size:40px;
+  margin:30px;
+}
+.button2{
+  background-color: #993300;
+  height: 20px;
+  width: 20px;
+  border-width: 10px;
+  border-color: #000
+}
+.column{
+    float: left;
+    width: 33.33%;
+}
+
+h1{
+  font-family: georgia;
+  font-size: 70px;
+}
+h2{
+  font-family: georgia;
+  font-size: 35px;
+  text-align:center;
+}
+p{
+  font-family: georgia;
+  font-size: 25px;
+}
+.icons{
+    width: 100px; 
+    height: 100px;
+
+   }
+</style>
+
+<div class="header">
+  <h1> Financial Planner</h1>
+  <h2 style= "text-align:center"><i> A form to help you balance your budget</i></h2>
+  <div class="topnav">
+    <a href="#button1"><button>Income</button></a>
+    <a href="#button2"><button> Savings</button></a>
+    <a href="#button3"><button style= "width: 300px">Necessities</button></a>
+    <a href="#button4"><button> Spending</button></a>
+  </div> 
+</div>
+
+
+<a name="button1"></a>
+ 
+<h2 style="text-align:center">Your total Income<h2>
+  
+<p style="text-align:center"><i> This is your total income this month, including gifts and earnings</i></p>
+  <div align="center">
+    <input type="text" id="myText"><i></i></p>
+
+<button onclick="Income()">Enter</button>
+  </div>
+<p id="demo"></p>
+
+  <h2> Divide your income</h2>
+<div class="row">
+  <div class="column" style="background-color:#85FF7A" align="center">                                          
+    <h2>Savings</h2>
+    <p> This is the amount that you want to put into savings this month</p>
+    <input type="number" id="savin" value="">
+    <p></p>
+
+<button onclick="Saving()">Enter</button>
+    
+  </div>
+
+
+  <div class="column" style="background-color:#B2FF99" align="center"> 
+    <h2>Necessities</h2>
+    <p> This is the amount that you have to spend on rent or other necessities</p>
+    
+    <input type="text" id="Necessary" value="">
+    
+    <p></p>
+
+    <button onclick="Nece()">Enter</button>
+    
+  </div>
+  <div class="column" style="background-color: #D9FFB2" align="center"> 
+    
+    <h2>Spending money</h2>
+    
+      <p> This is the amount you want to be able to spend this month</p>
+    <input type="text" id="spending" value="">
+    <p id="demo"></p>
+    <button onclick="Spending()">Enter</button>
+    </div>
+  </div>
+</div>
+<div align=center>
+  
+  
+<h2> Savings </h2>
+  <h2 id="save"></h2>
+  <a name="button2"></a>
+  <p> The first thing we'll do is add your new savings to your old savings</p>
+  
+   
+<form>
+  <h2>Old Savings <input type="number" name="oldSavings"><br></h2>
+  <p></p>
+  <h2> New Savings <input type="number" name="newSavings"><br></h2>
+  <p></p>
+ <h2>Add Together <input type="button" background-color:"#CC6100" value="sum" onclick="calcSav()"> </input> </h2>
+  <p></p>
+  <h2>Total Savings: <input type="number" name="sum"><br></h2>
+    
+</form>
+</div>
+
+<div align="center">
+  <h2> Necessities</h2>
+<p id= "Neces"></p>
+<a name="button3"></a>
+  <p> The second thing we'll do is divide up your necessities, so you can see exactly how much money is going where</p>
+<h2> 
+  <i>
+  <input type="text">Rent</input>
+
+<input type="text">Utilities</input>
+
+<input type="text">Medicine</input>
+
+<input type="text" style="margin-top:20px">Groceries</input>
+
+<input type="text" style="margin-top:20px">Commute</input>
+</div> 
+
+<div align="center">
+  <h2> Spending</h2>
+</i>
+</h2>
+<p id="spend"></p>
+<a name="button4"></a>
+  <p> The third thing we'll do is divide up your spending money, so you can maximize its use</p>
+
+<h2>
+<input type= number>Coffee</input>
+<input type=number>Dining</input>
+<input type=number>Entertainment</input>
+<input type=number style="margin=top:20px"> Other</input>
+<input type="number" style="margin-top:20px"> Other</input>
+<input type= "number" style="margin-top:20px"> Other</input>
+</h2>
+</div>
+  <h2> Important links for keeping a healthy budget</h2> 
+  
+<ul>
+  <li><p>You can check out these tips on creating a healthy<a href="https://money.usnews.com/money/blogs/the-frugal-shopper/articles  /2016-02-22/4-ways-to-live-on-a-budget-      when-you-dont-know-where-to-start"> budget </a> </p></li>
+
+<li><p> This is also a good resource to <a href= "https://money.usnews.com/money/the-frugal-shopper/2015/09/21/10-ways-to-save-more-money-everyday"> start learning to save</a></p></li>
+</ul>;
+
+  <div class= "footer culumn" align="center">
+    <p> page created by Alanna M. Lee</p>
+    <figure>
+  <a href="https://github.com/LanaRose288"><h2>
+      My Github
+    </h2></a>
+    <img class="icons" src= "https://avatars1.githubusercontent.com/u/36873263?s=460&v=4"><a href= "https://www.facebook.com/alanna.lee.90260">
+    <img class="icons"  src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/28870597_169353560379173_5038156136113504256_n.jpg?_nc_cat=0&oh=4474b58f601676f5a1030f2a9d2a69c0&oe=5B75F279"></img></a>
+    <img></a>
+    
+  <figure>
+    
+  </div>
+</div>
+<HTML>
